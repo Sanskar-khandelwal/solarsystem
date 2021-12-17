@@ -1,0 +1,113 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400px;
+    line-height: 1.8em;
+    color: #666;
+}
+.mercury, .venus, .earth, .Mars, .Jupiter, .Uranus , .Neptune, .Saturn {
+    position: relative;
+    opacity: 0.8;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+.solar-system{
+    background-image: url(../project-images/Solar-system.jpg);
+    min-height: 100%;
+    min-width: 200px;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 1600px 900px;
+   background-attachment: fixed;
+
+}
+.mercury{
+    background-image: url(../project-images/mercury.jpg);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: 1600px 900px;
+
+
+}
+.venus{
+    background-image: url(../project-images/venus.jpg);
+    min-height: 500px;
+    background-repeat: no-repeat;
+   background-size: 1600px 900px;
+
+}
+.earth{
+    background-image: url(../project-images/earth.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 1600px 500px;
+}
+.Mars{
+    background-image: url(../project-images/mars.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 1600px 500px;
+}
+.Saturn{
+    background-image: url(../project-images/Saturn.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 1600px 500px;
+}
+.Jupiter{
+    background-image: url(../project-images/jupiter.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 1600px 500px;
+}
+.Uranus{
+    background-image: url(../project-images/Uranus.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 1600px 500px;
+}
+.Neptune{
+    background-image: url(../project-images/Neptune.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 1600px 500px;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.centertext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500px;
+}
+
+.centertext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    font-weight: 400px;
+}
+.centertext .trans{
+    background-color: transparent;
+}
